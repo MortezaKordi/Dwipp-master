@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#19C4D1</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#fff</color>
+    <color name="blueLike">#0078a0</color>
+    <color name="exercise_colour">#0099cb</color>
+    <color name="progress_background">#3ec6e9</color>
+    <color name="limit_line">#DCDCDC</color>
+    <color name="light_gray_text">#9c9c9c</color>
+    <color name="text_black">#1b1b1b</color>
+</resources>

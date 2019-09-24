@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="end"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+
+    <item android:id="@+id/db"
+        android:title="$0"
+        android:icon="@drawable/wallet"
+        app:iconTint="#cc6600"
+        app:actionLayout="@layout/nav_add_credit">
+
+    </item>
+
+    <item android:id="@+id/events" android:title="Transactions" android:icon="@drawable/transactions"
+         />
+    <item android:id="@+id/search" android:title="Favourites" android:icon="@drawable/favourites"
+
+        android:iconTint="#990000"/>
+    <item android:id="@+id/settings" android:title="Orders History" android:icon="@drawable/ordershistory"
+        />
+    <item android:id="@+id/activities" android:title="Cart" android:icon="@drawable/cart"
+        />
+    <item android:id="@+id/logout" android:title="Profile" android:icon="@drawable/profile"
+        />
+
+    <item android:id="@+id/drawerSettings"
+        android:title="Settings"
+        android:icon="@drawable/settings"
+        />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+    <item android:id="@+id/logosomethingut" android:title="Help"
+        />
+
+    <item android:id="@+id/logofdsfdsut" android:title="Support"
+      />
+
+    </group>
+
+    <item android:id="@+id/dwippMedia"
+        android:title="@string/dwipp_player"
+        android:icon="@drawable/music_vector"
+  />
+
+</menu>

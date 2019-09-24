@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Dwipp</string>
+
+    <string name="intro_text">Hi! Let\'s track daily cumulative steps. Use the menu to explore additional actions.</string>
+    <string name="action_dump_subs">List Active Subscriptions</string>
+    <string name="action_cancel_subs">Cancel subscriptions</string>
+    <string name="action_settings">Settings</string>
+    <string name="back">برگشت</string>
+
+
+    <string name="kharid">خرید</string>
+    <string name="salamat">سلامت</string>
+    <string name="varzesh">ورزش</string>
+    <string name="taghzieh">تغذیه</string>
+    <string name="morabi">مربی</string>
+    <string name="burnCalories">کالری سوزانده شده</string>
+    <string name="calorie">کالری</string>
+
+    <string name="stepCount">قدم</string>
+    <string name="duration">مدت</string>
+    <string name="masafat">مسافت</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="bmiShakhes">شاخص BMI</string>
+    <string name="weight">وزن</string>
+    <string name="heartRate">ضربان قلب</string>
+    <string name="start">شروع</string>
+    <string name="emrooz">امروز</string>
+    <string name="tarikh">۲۱ فروردین ۱۳۹۸</string>
+    <string name="daraje">۳۸ \u00B0</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+
+    <string name="etebar">اعتبار</string>
+    <string name="tarakoneshha">تراکنشها</string>
+    <string name="moredeAlaghe">مورد علاقه</string>
+    <string name="gozaresh_sefareshat">گزارش سفارشات</string>
+    <string name="sabad">سبد خرید</string>
+    <string name="hesab_karbari">حساب کاربری</string>
+    <string name="tanzimat">تنظیمات</string>
+    <string name="komak">کمک</string>
+    <string name="poshtibani">پشتیبانی</string>
+    <string name="more">بیشتر...</string>
+    <string name="saat">ساعت</string>
+    <string name="zamanTitle">00:00</string>
+    <string name="tedad">0</string>
+    <string name="ghadam">قدم</string>
+    <string name="livan">لیوان</string>
+    <string name="zarabnGhalb">ضربان قلب</string>
+    <string name="kilogram">کیلوگرم</string>
+    <string name="rooz">روز</string>
+    <string name="hafte">هفته</string>
+    <string name="mah">ماه</string>
+    <string name="sal">سال</string>
+    <string name="sigar">سیگار</string>
+    <string name="daryaftKhabarname">دریافت خبرنامه</string>
+    <string name="emailoSefareshat">دریافت ایمیل و پیامک سفارشات</string>
+    <string name="zaban">زبان</string>
+    <string name="keshvar">کشور</string>
+    <string name="eelanha">اعلان‌ها</string>
+    <string name="vahedhayeAndazehgiri">واحدهای اندازه‌گیری</string>
+    <string name="bazkhordSoti">بازخورد صوتی</string>
+    <string name="bazkhordLarzeshi">بازخورد لرزشی</string>
+    <string name="servishayeMotasel">سرویس‌های متصل</string>
+    <string name="ramzGozari">رمزگذاری</string>
+    <string name="tashkhisZamanKhab">تشخیص زمان خواب</string>
+
+    <string name="shakhehayeFaaliat">ثبت لحظه‌ای شاخصه‌های فعالیت</string>
+    <string name="mogheiateMakani">ثبت لحظه‌ای موقعیت مکانی</string>
+    <string name="shomaresheMaakoos">شمارش معکوس هنگام شروع</string>
+    <string name="roshanMandaneSafheNamayesh">روشن ماندن صفحه نمایش</string>
+    <string name="tavaghofeKhodkar">توقف خودکار</string>
+    <string name="tavaghoMoosighi">توقف موسیقی هنگام توقف فعالیت</string>
+
+    <string name="baresiNoskheJadid">بررسی نسخه جدید</string>
+    <string name="goal">هدف</string>
+
+    <string name="passive_calories">Passive calorie burn</string>
+    <string name="excercies_calories">Calories burned during exercise</string>
+    <string name="max_calories">2,500 calories</string>
+    <string name="dwipp_player">Dwipp media player</string>
+
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mediaplayer.MediaPlayerMain">
+
+    <ListView
+        android:id="@+id/songsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@color/blueLike"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="7dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="0.16"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="3dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/music_note"
+            android:layout_weight="0.16"
+            android:text="Button" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/txtCurrentSong"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:layout_weight="0.68"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Currently playing" />
+
+
+
+        <ImageView
+            android:id="@+id/imgPlay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.16"
+            android:background="@drawable/play_arrow"/>
+
+    </LinearLayout>
+
+</LinearLayout>

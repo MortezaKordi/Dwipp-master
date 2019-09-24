@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HealthTabLayoutActivity">
+
+
+    <item
+        android:id="@+id/health_tab_back"
+        android:orderInCategory="100"
+        android:title="@string/back"
+        app:showAsAction="always"
+        android:icon="@drawable/back_icon"/>
+    <item
+        android:id="@+id/card_name"
+        android:orderInCategory="99"
+        android:title="@string/calorie"
+        app:showAsAction="always"
+        android:iconTint="#ffffff"
+      />
+
+</menu>

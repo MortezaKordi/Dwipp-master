@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/goParentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbi"
+    >
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="24dp"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="2"
+        android:useDefaultMargins="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/goDoctor"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowSpan="1"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            app:srcCompat="@drawable/doctor"
+
+            />
+
+        <ImageView
+            android:id="@+id/goCoach"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowSpan="1"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            app:srcCompat="@drawable/coach" />
+
+
+        <ImageView
+            android:id="@+id/goEat"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowSpan="1"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            app:srcCompat="@drawable/eat" />
+
+        <ImageView
+            android:id="@+id/goBuy"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowSpan="1"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            app:srcCompat="@drawable/shopping" />
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/goCycle"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/gc"
+        app:layout_constraintBottom_toTopOf="@+id/goWorkout"
+        app:layout_constraintEnd_toEndOf="@+id/goWorkout" />
+
+    <ImageView
+        android:id="@+id/goWalk"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/gw"
+        app:layout_constraintBottom_toTopOf="@+id/goCycle"
+        app:layout_constraintEnd_toEndOf="@+id/goCycle" />
+
+    <ImageView
+        android:id="@+id/goRun"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/gr"
+        app:layout_constraintBottom_toBottomOf="@+id/goWalk"
+        app:layout_constraintEnd_toStartOf="@+id/goWalk"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/goWorkout"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/closeGoViewButton"
+        app:layout_constraintTop_toTopOf="@+id/closeGoViewButton"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/closeGoViewButton"
+        android:layout_width="57dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        app:backgroundTint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_close_black_24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
